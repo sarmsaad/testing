@@ -1,0 +1,36 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+<!-- 
+function sayHello(){
+	alert("Hello World!");
+}
+function validation(){
+	return true;
+}
+function over(){
+	document.write("Mouse Over");
+}
+function out(){
+	document.write("Mouse Out");
+}
+//-->
+</script>
+</head>
+<body>
+Click here for the result <br>
+<input type="button" onclick="sayHello()" value="Say Hello" />
+<form method="POST" action="t.cgi" onsubmit="return validate()"/>
+so this is it
+<input type="submit" value="Submit"/>
+<p>
+Bring your mouse inside the division to see the result:
+</p>
+<div onmouseover="over()">
+<h2> this is inside the division when the mouse is over</h2>
+</div>
+<div onmouseout="out()">
+<h1> this is inside the dision when the mouse is out</h1>
+</div>
+</body>
+</html>
